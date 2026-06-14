@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+:root {
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+  --third-family: "ST-Nizhegorodsky", sans-serif;
+  --font3: "Hind Madurai", sans-serif;
+  --font4: "Roboto", sans-serif;
+  --font5: "Wanderlust", sans-serif;
+  --font6: "Rubik", sans-serif;
+  --font7: "SF Pro Display", sans-serif;
+  --font8: "Alexandria", sans-serif;
+  --font9: "Inter", sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    gap: 60px;                     
+    list-style-type: none;          
+    margin: 0;
+    padding: 0;
+    margin-left: 215.5;
+}
+.nav-list-item {
+    font-family: var(--font-family), sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 53.5px;
+    margin-bottom: 10px;
+}
+.nav-logo-icon {
+  margin-left: -200px; 
+  margin-top: 40px;
+  width: 147px;
+  height: 60px;
+  display: block;
+}
+.nav{ 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding-left: 431.5px;          
+    padding-right: 501.5px;         
+    background-color: #000;        
+}
+nav.logo{
+    display: flex;
+    align-items: center;
+}
+.socialMedia{
+    display: flex;
+    margin-top: 53.5px;
+    margin-right: -200px;
+    gap: 15.43px;
+}
