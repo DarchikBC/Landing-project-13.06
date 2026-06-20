@@ -20,16 +20,26 @@
                 />
               </div>
               <ul class="nav-list">
-                <li class="nav-list-item">Main</li>
-                <li class="nav-list-item">About Us</li>
-                <li class="nav-list-item">Trainers</li>
-                <li class="nav-list-item">App</li>
+                <li class="nav-list-item">
+                  <a href="#hero" class="nav-link">Main</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#products" class="nav-link">Trainers</a>
+                </li>
+                <!-- або Products, залежно від макету -->
+                <li class="nav-list-item">
+                  <a href="#app" class="nav-link">App</a>
+                </li>
               </ul>
               <ul class="socialMedia">
                 <li class="socialMedia-item">
                   <a
                     href="https://www.instagram.com/that7ergey/"
                     class="socialMedia-item-link"
+                    target="_blank"
                   >
                     <img
                       src="./images/Inst.png"
@@ -42,6 +52,7 @@
                   <a
                     href="https://www.facebook.com/profile.php?id=61552403011195"
                     class="socialMedia-item-link"
+                    target="_blank"
                   >
                     <img
                       src="./images/Facebook.png"
@@ -54,6 +65,7 @@
                   <a
                     href="https://www.tiktok.com/@stbua"
                     class="socialMedia-item-link"
+                    target="_blank"
                   >
                     <img
                       src="./images/TikTok.png"
@@ -66,6 +78,7 @@
                   <a
                     href="https://www.youtube.com/@FaktyICTVchannel"
                     class="socialMedia-item-link"
+                    target="_blank"
                   >
                     <img
                       src="./images/YouTube.png"
@@ -80,7 +93,42 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main id="hero">
+      <div class="main-content">
+        <p class="mini-main-description">Sweet fun, full of milk.</p>
+        <p class="main-title">
+          Feel inside cold with<br />
+          our delicious <span class="pink-color">ice-cream</span>
+        </p>
+        <p class="main-description">
+          Some food has looked so awful that it's looked like something that the
+          <br />dog's brought home, yet after one mouthful I've been left eating
+          my <br />thoughts, my words.
+        </p>
+        <img class="main-img" src="./images/img-main.png" alt="main img" />
+        <button class="main-btn"><b>Buy Now</b></button>
+        <section id="about" class="About-Us">
+          <div class="About-Us-content">
+            <p class="About-Us-description">
+              Porem ipsum dolor sit amet, consectetur <br />adipiscing elit.
+              <span class="grey-text"
+                >Nunc vulputate libero et velit <br />interdum, ac aliquet odio
+                mattis. Class aptent <br />taciti sociosqu ad litora
+                torquent</span
+              >
+              per conubia <br />
+              nostra, per inceptos himenaeos.
+            </p>
+          </div>
+        </section>
+        <section id="products" class="products-section">
+
+        </section>
+        <section id="app" class="app-section">
+          
+        </section>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
